@@ -63,7 +63,7 @@ def handle_userinput(user_question):
             st.write(bot_template.replace(
                 "{{MSG}}", message.content), unsafe_allow_html=True)
 def hello():
-    print('hello')
+    print('hello world')
 
 def main():
     load_dotenv()
